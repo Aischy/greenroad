@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.login{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 20px;
+    height: 35px;
+}
+.login .btn1{
+    padding: 5px 15px;
+    transition-duration: 0.4s;
+    background-color: #94CC54;
+    color: white;
+    border: 0px;
+    border-radius: 0px 15px 15px 0px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 1px;
+
+}
+.login .btn1:hover {
+    background-color: white;
+    border: 1px solid #94CC54;
+    color: #6F6F6F;
+
+}
+.login .btn2{
+    padding: 5px 15px;
+    transition-duration: 0.4s;
+    background-color: #94CC54;
+    color: white;
+    border: 0px;
+    border-radius: 15px 0px 0px 15px;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+.login .btn2:hover {
+    background-color: white;
+    border: 1px solid #94CC54;
+    color: #6F6F6F;
+
+}
+
+.login .btn3{
+
+    padding: 5px 15px;
+    transition-duration: 0.4s;
+    background-color: #94CC54;
+    color: white;
+    border: 0px;
+    border-radius: 15px 15px 15px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 10px;
+  
+}
+  
+.login .btn3:hover{
+
+    background-color: white;
+    border: 1px solid #94CC54;
+    color: #6F6F6F;
+
+}
+
+.login img{
+    width: 30px;
+    height: 30px;
+}
+
+nav img{
+    width: 160px;
+    height: 160px;
+}
+
+nav {
+
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+nav h1{
+    color: #6F6F6F;
+    font-family: 'Montserrat';
+    font-size: 30px;
+}
+
+
+nav .onglets a{
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: #6F6F6F;
+    margin-right: 10px;
+
+}
+nav .onglets a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('../IMAGES/backgroundautoroute.png');
+    background-size: cover;
+    color: white;
+    padding: 15%;
+}
+header h2{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 15px black;
+    
+}
+header h3{
+    font-size: 30px;
+    text-align: center;    
+    text-shadow: 1px 1px 15px black;
+}
+
+.titreadmin {
+    margin-left:650px ;
+}
+
+
+.adminbox {
+    width: 1000px;
+    height: 300px;
+    border-radius: 30px;
+    text-align: justify;
+    border: 1px solid black;
+    overflow: auto;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom : 70px;
+}
+
+
+
+
+
+
+
+
+/*footer*/
+footer{
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    height: 100px;
+    text-align: left;
+}
+
+footer img{
+    margin: 60px;
+}
+footer a{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+#overlay{
+    position:absolute;
+    top:50px;
+    left:50px;
+    z-index:10;
+    display:none;
+    width:200px;
+    height:150px;
+    overflow:auto;
+    border-style:solid;
+    border-color:#909090;
+    border-width:1px;
+    background-color:#f0f0f0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.login{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 20px;
+    height: 35px;
+}
+.login .btn1{
+    padding: 5px 15px;
+    transition-duration: 0.4s;
+    background-color: #94CC54;
+    color: white;
+    border: 0px;
+    border-radius: 0px 15px 15px 0px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 1px;
+
+}
+.login .btn1:hover {
+    background-color: white;
+    border: 1px solid #94CC54;
+    color: #6F6F6F;
+
+}
+.login .btn2{
+    padding: 5px 15px;
+    transition-duration: 0.4s;
+    background-color: #94CC54;
+    color: white;
+    border: 0px;
+    border-radius: 15px 0px 0px 15px;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+.login .btn2:hover {
+    background-color: white;
+    border: 1px solid #94CC54;
+    color: #6F6F6F;
+
+}
+
+.login .btn3{
+
+    padding: 5px 15px;
+    transition-duration: 0.4s;
+    background-color: #94CC54;
+    color: white;
+    border: 0px;
+    border-radius: 15px 15px 15px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 10px;
+  
+}
+  
+.login .btn3:hover{
+
+    background-color: white;
+    border: 1px solid #94CC54;
+    color: #6F6F6F;
+
+}
+
+.login img{
+    width: 30px;
+    height: 30px;
+}
+
+nav img{
+    width: 160px;
+    height: 160px;
+}
+
+nav {
+
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+nav h1{
+    color: #6F6F6F;
+    font-family: 'Montserrat';
+    font-size: 30px;
+}
+
+
+nav .onglets a{
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: #6F6F6F;
+    margin-right: 10px;
+
+}
+nav .onglets a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.onglets .pierrito span img{
+    width: 50px;
+    height: 60px;
+
+}
+.onglets .pierrito { 
+    position:relative ; 
+}
+.onglets .pierrito span {
+    position:absolute;
+    opacity: 0%;
+    bottom: 5px;;
+    right: 30px;
+    transition: transform 1s;
+}
+.pierrito:hover  span { 
+    opacity: 100%;
+    transform: translate(0px,-15px);
+}
+
+
+@media screen and (max-width: 680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    height: 1000px;
+}
+
+
+.btnlogout{
+
+    padding: 5px 15px;
+    transition-duration: 0.4s;
+    background-color: #94CC54;
+    color: white;
+    border: 0px;
+    border-radius: 15px 15px 15px 15px;
+    text-decoration: none;
+    font-size: 13px;
+  
+}
+  
+.btnlogout:hover{
+
+    background-color: white;
+    border: 1px solid #94CC54;
+    color: #6F6F6F;
+
+}
+
+.btnresetpw{
+
+    padding: 5px 15px;
+    transition-duration: 0.4s;
+    background-color: #94CC54;
+    color: white;
+    border: 0px;
+    border-radius: 15px 15px 15px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 10px;
+  
+}
+  
+.btnresetpw:hover{
+
+    background-color: white;
+    border: 1px solid #94CC54;
+    color: #6F6F6F;
+
+}
+
+.userpage img{
+    width: 160px;
+    height: 160px;
+}
+
+nav {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    color: #6F6F6F;
+    font-family: 'Montserrat';
+    font-size: 30px;
+}
+
+.userpage{
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #f0f1f1;
+    padding: 10%;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    width: 70%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+table {
+    height:auto;
+    text-align:left;
+}
+
+table h3 {
+    text-align:center;
+}
+
+.espace {
+    width:400px;
+}
+
+table .info {
+    border: 5px solid lightgreen;
+    width: 1000px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.alinea { 
+  text-indent: 20px; 
+}
+
+footer{
+    text-decoration: none;
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    height: 100px;
+    text-align: left;
+}
+
+footer img{
+    margin: 60px;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* Décrire l'animation */
+@keyframes slideDownFadeIN {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+/* Foncer l'arrière-plan de la fenêtre modale */
+.modal {
+  display: none; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Afficher la fenêtre modale lorsqu'elle est ciblée par un lien supprimer */
+.modal:target {
+  display: table;
+  position: absolute;
+}
+
+/* la fenêtre modale  */
+.modal-dialog {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Le contenu de la modale */
+.modal-dialog .modal-content {
+  margin: auto;
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px #777 solid;
+  text-align: justify;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+  animation-name: slideDownFadeIN;
+  animation-duration: 0.5s;
+}
+
+/* Bouton servant à fermer la fenêtre modale */
+.closebtn {
+  text-decoration: none;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.closebtn:hover,
+.closebtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.modal header {
+  background-color: #5cb85c;
+  font-size: 25px;
+  color: white;
+}
+
+.modal footer {
+  background-color: #5cb85c;
+  font-size: 20px;
+  color: white;
+}
+
+#body {
+    height: 300px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top:30px;
+}
+
